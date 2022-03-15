@@ -2,9 +2,15 @@
 
 Bryon Tjanaka in a Python package!
 
-|                       Source                        |                                                    PyPI                                                    |                                                                                                    CI/CD                                                                                                    |
-| :-------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [GitHub](https://github.com/btjanaka/btjanaka-pypi) | [![PyPI](https://img.shields.io/pypi/v/btjanaka?style=flat&color=blue)](https://pypi.org/project/btjanaka) | [![Test and Deploy](https://github.com/btjanaka/btjanaka-pypi/workflows/Test%20and%20Deploy/badge.svg?branch=master)](https://github.com/btjanaka/btjanaka-pypi/actions?query=workflow%3A"Test+and+Deploy") |
+|                       Source                        |                       Demo                       |                                                    PyPI                                                    |                                                                                                    CI/CD                                                                                                    |
+| :-------------------------------------------------: | :----------------------------------------------: | :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [GitHub](https://github.com/btjanaka/btjanaka-pypi) | [Demo](https://pages.btjanaka.net/btjanaka-pypi) | [![PyPI](https://img.shields.io/pypi/v/btjanaka?style=flat&color=blue)](https://pypi.org/project/btjanaka) | [![Test and Deploy](https://github.com/btjanaka/btjanaka-pypi/workflows/Test%20and%20Deploy/badge.svg?branch=master)](https://github.com/btjanaka/btjanaka-pypi/actions?query=workflow%3A"Test+and+Deploy") |
+
+## Demo
+
+To try the btjanaka package in the browser (courtesy of
+[Pyodide](https://pyodide.org/)), visit
+[this page](https://pages.btjanaka.net/btjanaka-pypi)
 
 ## Installation
 
