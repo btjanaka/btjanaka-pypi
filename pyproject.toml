@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "btjanaka"
-version = "0.2.0"
+version = "0.3.0"
 description = "Bryon Tjanaka in a Python package!"
 authors = ["Bryon Tjanaka <bryon@btjanaka.net>"]
 license = "MIT"
