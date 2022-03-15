@@ -44,3 +44,7 @@ btjanaka.website(browser=True)  # Opens the website in a browser.
 btjanaka.chinese()  # "张学龙"
 btjanaka.canadian()  # "Bryon Tjanaka eh"
 ```
+
+## Credits
+
+Inspired by [five](https://pypi.org/project/five/).
