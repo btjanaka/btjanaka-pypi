@@ -51,6 +51,8 @@ btjanaka.email()  # "bryon@tjanaka.net"
 btjanaka.github()  # "btjanaka"
 btjanaka.linkedin()  # "btjanaka"
 btjanaka.twitter()  # "btjanaka"
+btjanaka.webdemo()  # "https://pages.btjanaka.net/btjanaka-pypi"
+btjanaka.webdemo(browser=True)  # Opens the web demo in a browser.
 btjanaka.website()  # "https://btjanaka.net"
 btjanaka.website(browser=True)  # Opens the website in a browser.
 ```

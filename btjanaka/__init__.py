@@ -49,8 +49,16 @@ def twitter():
     return "btjanaka"
 
 
+def webdemo(browser: bool = False):
+    """Returns the web demo URL or opens in a browser if browser=True."""
+    url = "https://pages.btjanaka.net/btjanaka-pypi"
+    if browser:
+        webbrowser.open(url)
+    return url
+
+
 def website(browser: bool = False):
-    """Return the website or open in a browser if browser=True."""
+    """Returns the website URL or opens in a browser if browser=True."""
     url = "https://btjanaka.net"
     if browser:
         webbrowser.open(url)
