@@ -10,7 +10,7 @@ authors = ["Bryon Tjanaka <bryon@btjanaka.net>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://btjanaka.net"
-repository = "https://github.com/btjanaka/package"
+repository = "https://github.com/btjanaka/btjanaka-pypi"
 keywords = ["fun", "awesome"]
 classifiers = [
   "Development Status :: 4 - Beta",
