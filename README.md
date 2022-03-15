@@ -10,7 +10,7 @@ Bryon Tjanaka in a Python package!
 
 To try the btjanaka package in the browser (courtesy of
 [Pyodide](https://pyodide.org/)), visit
-[this page](https://pages.btjanaka.net/btjanaka-pypi)
+[this page](https://pages.btjanaka.net/btjanaka-pypi).
 
 ## Installation
 
