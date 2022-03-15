@@ -16,6 +16,29 @@ def yell():
     return "BRYON TJANAKA"
 
 
+## Info
+
+
+def email():
+    """Email address."""
+    return "bryon@tjanaka.net"
+
+
+def github():
+    """GitHub username."""
+    return "btjanaka"
+
+
+def linkedin():
+    """LinkedIn username."""
+    return "btjanaka"
+
+
+def twitter():
+    """Twitter handle."""
+    return "btjanaka"
+
+
 def website(browser: bool = False):
     """Return the website or open in a browser if browser=True."""
     url = "https://btjanaka.net"
@@ -27,11 +50,16 @@ def website(browser: bool = False):
 ## Internationalization
 
 
-def chinese():
-    """Chinese name."""
-    return "张学龙"
+def british():
+    """Oi."""
+    return "oi Bryon!"
 
 
 def canadian():
     """Eh."""
     return "Bryon Tjanaka eh"
+
+
+def chinese():
+    """Chinese name."""
+    return "张学龙"

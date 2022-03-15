@@ -34,6 +34,15 @@ import btjanaka
 ```python
 btjanaka.name()  # "Bryon Tjanaka"
 btjanaka.yell()  # "BRYON TJANAKA"
+```
+
+### Info
+
+```python
+btjanaka.email()  # "bryon@tjanaka.net"
+btjanaka.github()  # "btjanaka"
+btjanaka.linkedin()  # "btjanaka"
+btjanaka.twitter()  # "btjanaka"
 btjanaka.website()  # "https://btjanaka.net"
 btjanaka.website(browser=True)  # Opens the website in a browser.
 ```
@@ -41,8 +50,9 @@ btjanaka.website(browser=True)  # Opens the website in a browser.
 ### Internationalization
 
 ```python
-btjanaka.chinese()  # "张学龙"
+btjanaka.british()  # "oi Bryon!"
 btjanaka.canadian()  # "Bryon Tjanaka eh"
+btjanaka.chinese()  # "张学龙"
 ```
 
 ## Credits

@@ -1,6 +1,9 @@
 """Tests for btjanaka."""
+import btjanaka
 
 
-def test_placeholder():
-    """Placeholder so that tests pass."""
-    pass
+def test_calls():
+    """Try calling every method."""
+    for name, method in btjanaka.__dict__.items():
+        if not name.startswith("_") and callable(method):
+            method()
