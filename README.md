@@ -25,8 +25,6 @@ not guaranteed.
 
 ## Usage
 
-### Import
-
 ```python
 import btjanaka
 
