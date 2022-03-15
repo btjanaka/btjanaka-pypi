@@ -43,7 +43,7 @@
             import __main__
             BANNER = """\\
             Welcome to the btjanaka package demo!
-            Start with \`import btjanaka\`, then type \`help(btjanaka)\`
+            Type \`help(btjanaka)\` for more info.
             Adapted from the Pyodide terminal emulator at https://pyodide.org/en/stable/console.html
             """ + BANNER
             pyconsole = PyodideConsole(__main__.__dict__)
@@ -71,9 +71,10 @@
         // https://github.com/pyodide/pyodide/issues/1893
         pyodide.loadPackage("micropip").then(() => {
           pyodide.runPythonAsync(`
-                # Install btjanaka package.
+                # Install and import btjanaka package.
                 import micropip
                 micropip.install("btjanaka")
+                import btjanaka
               `);
         });
 
