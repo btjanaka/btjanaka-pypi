@@ -32,6 +32,8 @@ import btjanaka
 ### Basics
 
 ```python
+btjanaka.firstname()  # "Bryon"
+btjanaka.lastname()  # "Tjanaka"
 btjanaka.name()  # "Bryon Tjanaka"
 btjanaka.yell()  # "BRYON TJANAKA"
 ```

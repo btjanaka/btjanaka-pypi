@@ -6,8 +6,18 @@ import webbrowser
 ## Basics
 
 
+def firstname():
+    """First name only."""
+    return "Bryon"
+
+
+def lastname():
+    """Last name only."""
+    return "Tjanaka"
+
+
 def name():
-    """Just the name."""
+    """Full name."""
     return "Bryon Tjanaka"
 
 
