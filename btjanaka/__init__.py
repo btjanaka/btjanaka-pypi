@@ -3,6 +3,8 @@ __version__ = "0.1.1"
 
 import webbrowser
 
+## Basics
+
 
 def name():
     """Just the name."""
@@ -20,3 +22,16 @@ def website(browser: bool = False):
     if browser:
         webbrowser.open(url)
     return url
+
+
+## Internationalization
+
+
+def chinese():
+    """Chinese name."""
+    return "张学龙"
+
+
+def canadian():
+    """Eh."""
+    return "Bryon Tjanaka eh"

@@ -27,9 +27,20 @@ not guaranteed.
 
 ```python
 import btjanaka
+```
 
+### Basics
+
+```python
 btjanaka.name()  # "Bryon Tjanaka"
 btjanaka.yell()  # "BRYON TJANAKA"
 btjanaka.website()  # "https://btjanaka.net"
 btjanaka.website(browser=True)  # Opens the website in a browser.
+```
+
+### Internationalization
+
+```python
+btjanaka.chinese()  # "张学龙"
+btjanaka.canadian()  # "Bryon Tjanaka eh"
 ```
