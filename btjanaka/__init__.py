@@ -81,3 +81,13 @@ def canadian():
 def chinese():
     """Chinese name."""
     return "张学龙"
+
+
+## Miscellaneous
+
+
+def meaning(of=None):
+    """The meaning of life?"""
+    if of == "life":
+        return 42
+    return None

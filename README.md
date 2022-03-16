@@ -81,6 +81,12 @@ len(btjanaka.british())  # 9
 len(btjanaka.email().replace(".", "").split("@")[1])  # 10
 ```
 
+### Miscellaneous
+
+```python
+btjanaka.meaning(of="life")  # 42
+```
+
 ## Credits
 
 Inspired by [five](https://pypi.org/project/five/).
